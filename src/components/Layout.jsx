@@ -5,9 +5,9 @@ import Footer from './Footer';
 
 const Layout = () => {
   return (
-    <div className="app">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main style={{ marginTop: '80px' }}>
+      <main className="flex-1">
         <Outlet />
       </main>
       <Footer />
