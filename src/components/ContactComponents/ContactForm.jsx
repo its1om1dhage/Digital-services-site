@@ -42,7 +42,7 @@ const ContactForm = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            placeholder="Ayush Gupta"
+            placeholder="Om Dhage"
             className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
           />
         </div>
@@ -56,7 +56,7 @@ const ContactForm = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            placeholder="ayush@example.com"
+            placeholder="om@example.com"
             className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
           />
         </div>

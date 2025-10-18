@@ -2,8 +2,8 @@ import React from 'react';
 import {
   HeroSection,
   ServicesSection,
-  AboutSection,
   GrowthSection,
+  ProjectsSection,
   WorkProcessPreview,
   CTASection
 } from '../components/HomeComponents';
@@ -13,8 +13,8 @@ const Home = () => {
     <div className="pt-20">
       <HeroSection />
       <ServicesSection />
-      <AboutSection />
       <GrowthSection />
+      <ProjectsSection />
       <WorkProcessPreview />
       <CTASection />
     </div>

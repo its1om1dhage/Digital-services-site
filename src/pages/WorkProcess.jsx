@@ -1,6 +1,12 @@
 import React from 'react';
 import { PageHeader } from '../components/shared';
-import { ProcessTimeline, ProcessCTA } from '../components/WorkProcessComponents';
+import { 
+  ProcessTimeline, 
+  MethodologySection, 
+  ToolsTechnologies, 
+  ProjectTimeline, 
+  ProcessCTA 
+} from '../components/WorkProcessComponents';
 
 const WorkProcess = () => {
   return (
@@ -10,6 +16,9 @@ const WorkProcess = () => {
         subtitle="A streamlined approach to deliver exceptional digital solutions from concept to launch."
       />
       <ProcessTimeline />
+      <MethodologySection />
+      <ToolsTechnologies />
+      <ProjectTimeline />
       <ProcessCTA />
     </div>
   );

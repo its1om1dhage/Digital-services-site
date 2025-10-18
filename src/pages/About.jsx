@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageHeader } from '../components/shared';
-import { IntroSection, MissionVisionValues, WhyChooseUs } from '../components/AboutComponents';
+import { AboutSection, MissionVisionValues, WhyChooseUs } from '../components/AboutComponents';
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         title="About WebCultivate"
         subtitle="Your Trusted Partner in Digital Transformation"
       />
-      <IntroSection />
+      <AboutSection />
       <MissionVisionValues />
       <WhyChooseUs />
     </div>

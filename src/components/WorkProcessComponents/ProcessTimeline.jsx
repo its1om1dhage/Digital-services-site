@@ -76,13 +76,6 @@ const ProcessTimeline = () => {
         <div className="space-y-8">
           {processes.map((process, index) => (
             <div key={index} className="flex gap-6 items-start">
-              {/* Step Number - Large and Prominent */}
-              <div className="flex-shrink-0 w-20 text-center">
-                <div className="text-6xl font-extrabold bg-gradient-to-br from-primary to-primary-dark bg-clip-text text-transparent">
-                  {process.step}
-                </div>
-              </div>
-              
               {/* Icon Box */}
               <div className="flex-shrink-0">
                 <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-primary dark:text-primary-light">
