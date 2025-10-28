@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import ScrollToTop from './components/ScrollToTop';
@@ -9,8 +9,22 @@ import Testimonials from './pages/Testimonials';
 import Pricing from './pages/Pricing';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
+import Loader from './components/Loader';
 
 const App = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Show loader for 2 seconds (you can adjust)
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />; // 👈 Show loader first
+  } 
+
   return (
     <Router>
       <ScrollToTop />

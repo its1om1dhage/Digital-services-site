@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageHeader } from '../components/shared';
-import { TeamIntro, TeamGrid, TeamCTA } from '../components/TeamComponents';
+import { TeamIntro, TeamGrid, TeamCTA } from '../components/Team';
 
 const Team = () => {
   return (
@@ -10,7 +10,7 @@ const Team = () => {
         subtitle="The talented people behind WebCultivate"
       />
       <TeamIntro />
-      <TeamGrid />
+      {/* <TeamGrid /> */}
       <TeamCTA />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageHeader } from '../components/shared';
-import { TestimonialsGrid, StatsSection } from '../components/TestimonialsComponents';
+import { TestimonialsGrid, StatsSection } from '../components/Testimonials';
 
 const Testimonials = () => {
   return (

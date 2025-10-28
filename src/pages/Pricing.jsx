@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageHeader } from '../components/shared';
-import { PricingCards, PricingFAQ } from '../components/PricingComponents';
+import { PricingCards, PricingFAQ } from '../components/Pricing';
 
 const Pricing = () => {
   return (

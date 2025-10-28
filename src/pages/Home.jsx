@@ -5,16 +5,19 @@ import {
   GrowthSection,
   ProjectsSection,
   WorkProcessPreview,
-  CTASection
-} from '../components/HomeComponents';
+  CTASection,
+  TechnologyStack
+} from '../components/Home';
 
 const Home = () => {
   return (
-    <div className="pt-20">
+    //  classname="pt-10"
+    <div>
       <HeroSection />
       <ServicesSection />
       <GrowthSection />
-      <ProjectsSection />
+      {/* <ProjectsSection /> */}
+      <TechnologyStack />
       <WorkProcessPreview />
       <CTASection />
     </div>

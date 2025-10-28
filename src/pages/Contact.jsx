@@ -1,10 +1,10 @@
 import React from 'react';
 import { PageHeader } from '../components/shared';
-import { ContactInfo, ContactForm } from '../components/ContactComponents';
+import { ContactInfo, ContactForm } from '../components/Contact';
 
 const Contact = () => {
   return (
-    <div className="pt-20">
+    <div className="mt-20">
       <PageHeader 
         title="Get In Touch" 
         subtitle="Let us help you bring your digital vision to life" 

@@ -52,6 +52,11 @@ export default {
           '0%, 100%': { filter: 'brightness(1)' },
           '50%': { filter: 'brightness(1.3)' },
         },
+        spinCustom: {
+           from: { transform: 'rotate(0deg)' },
+           to: { transform: 'rotate(360deg)' },
+          },
+
       },
       animation: {
         float: 'float 4s ease-in-out infinite',
@@ -61,6 +66,7 @@ export default {
         rotate: 'rotate 20s linear infinite',
         'sun-rotate': 'sunRotate 20s linear infinite',
         'moon-glow': 'moonGlow 2s ease-in-out infinite',
+        spinCustom: 'spinCustom 1.2s linear infinite',
       },
     },
   },
