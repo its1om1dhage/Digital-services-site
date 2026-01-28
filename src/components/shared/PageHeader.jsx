@@ -12,10 +12,10 @@ const PageHeader = ({ title, subtitle }) => {
 
       {/* Main Content */}
       <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 dark:from-gray-100 dark:via-gray-200 dark:to-gray-300 bg-clip-text text-transparent text-center">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-600 dark:from-gray-100 dark:via-gray-200 dark:to-gray-300 bg-clip-text text-transparent">
           {title}
         </h1>
-        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed text-center mx-auto">
+        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
           {subtitle}
         </p>
         <div className="mt-6 w-24 h-1 bg-gradient-to-r from-gray-400 to-gray-500 dark:from-primary dark:to-primary-light mx-auto rounded-full" />

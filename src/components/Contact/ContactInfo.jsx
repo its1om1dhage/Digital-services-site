@@ -9,7 +9,7 @@ const ContactInfo = () => {
         </svg>
       ),
       title: 'Email Us',
-      info: 'webcultivate01@gmail.com'
+      info: 'info@webcultivate.com'
     },
     {
       icon: (
@@ -18,7 +18,7 @@ const ContactInfo = () => {
         </svg>
       ),
       title: 'Call Us',
-      info: '+91 7447746247 • +91 7887472660'
+      info: '+91 7821096438'
     },
     {
       icon: (
@@ -28,7 +28,7 @@ const ContactInfo = () => {
         </svg>
       ),
       title: 'Location',
-      info: 'Pune • Nagpur • Amravati'
+      info: 'Sai Nagar Amravati'
     },
     {
       icon: (
@@ -37,7 +37,7 @@ const ContactInfo = () => {
         </svg>
       ),
       title: 'Working Hours',
-      info: 'Mon - sat: 9:00 AM - 10:00 PM'
+      info: 'Mon - sat: 9:00 AM - 8:00 PM'
     }
   ];
 

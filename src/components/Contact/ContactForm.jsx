@@ -70,7 +70,7 @@ const ContactForm = () => {
         value={formData.email}
         onChange={handleChange}
         required
-        placeholder="webcultivate01@gmail.com"
+        placeholder="info@webcultivate.com"
         className="w-full px-3 py-2.5 rounded-xl border border-gray-300 dark:border-slate-600 bg-gray-50 dark:bg-slate-800/70 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm shadow-sm hover:shadow-md"
       />
     </div>
@@ -86,7 +86,7 @@ const ContactForm = () => {
         name="phone"
         value={formData.phone}
         onChange={handleChange}
-        placeholder="+91 7447746247"
+        placeholder="+91 7821096438"
         className="w-full px-3 py-2.5 rounded-xl border border-gray-300 dark:border-slate-600 bg-gray-50 dark:bg-slate-800/70 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm shadow-sm hover:shadow-md"
       />
     </div>
@@ -96,21 +96,24 @@ const ContactForm = () => {
       <label htmlFor="service" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
         Service Interested In *
       </label>
-      <select
-        id="service"
-        name="service"
-        value={formData.service}
-        onChange={handleChange}
-        required
-        className="w-full px-3 py-2.5 rounded-xl border border-gray-300 dark:border-slate-600 bg-gray-50 dark:bg-slate-800/70 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm shadow-sm hover:shadow-md"
-      >
-        <option value="">Select a Service</option>
-        <option value="website-design">Website Design</option>
-        <option value="website-development">Website Development</option>
-        <option value="graphic-design">Graphic Design</option>
-        <option value="digital-marketing">Digital Marketing</option>
-        <option value="other">Other</option>
-      </select>
+<select
+  id="service"
+  name="service"
+  value={formData.service}
+  onChange={handleChange}
+  required
+  className="w-full px-3 py-2.5 rounded-xl border border-gray-300 dark:border-slate-600 bg-gray-50 dark:bg-slate-800/70 text-gray-800 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm shadow-sm hover:shadow-md"
+>
+  <option value="">Select a Service</option>
+  <option value="website-design">Website Designing</option>
+  <option value="website-development">Website Development</option>
+  <option value="graphic-design">Graphic Designing</option>
+  <option value="domain-registration">Domain Registration</option>
+  <option value="business-email">Business Email</option>
+  <option value="digital-marketing">Digital Marketing</option>
+  <option value="other">Other</option>
+</select>
+
     </div>
 
     {/* Message */}

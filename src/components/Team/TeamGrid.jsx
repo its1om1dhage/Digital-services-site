@@ -25,8 +25,15 @@ const TeamGrid = () => {
       role: 'Frontend Developer',
       imageUrl: Om,
       bio: 'Building seamless and responsive web experiences with React and modern frontend technologies',
-      social: { linkedin: 'https://www.linkedin.com/in/om-dhage-49860038b', twitter: '#', email: '#' },
+      social: { linkedin: '#', twitter: '#', email: '#' },
     },
+    // {
+    // //   name: 'Vaishnavi Gharaat',
+    // //   role: 'Digital Marketer & Designer',
+    // //   imageUrl: Vaishnavi,
+    // //   bio: 'Driving growth through creative digital marketing strategies.',
+    // //   social: { linkedin: 'https://www.linkedin.com/in/vaishnavie-gharat-753369249/', twitter: '#', email: '#' },
+    // // },
   ];
 
   return (
@@ -40,7 +47,7 @@ const TeamGrid = () => {
         </div> */}
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 gap-x-6 sm:gap-x-8 max-w-5xl mx-auto text-center justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-10 sm:gap-y-12 gap-x-6 sm:gap-x-8 max-w-6xl mx-auto text-center">
           {team.map((member, index) => (
             <div key={index} className="px-4 sm:px-0">
               <img
